@@ -1,7 +1,7 @@
-module github.com/djchanahcjd/go-cache
+module go-cache
 
 go 1.24.3
 
-require lru v0.0.0
+require geecache v0.0.0
 
-replace lru => ./lru
+replace geecache => ./geecache
